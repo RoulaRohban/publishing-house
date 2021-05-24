@@ -2,8 +2,9 @@
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
-class CreateCategoriesTable extends Migration
+class CreateBlogsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,12 +13,10 @@ class CreateCategoriesTable extends Migration
      */
     public function up()
     {
-        // Create table for storing categories
-        Schema::create('categories', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('order')->default(1);
-            $table->string('name');
-            $table->string('slug')->unique();
+        Schema::create('blogs', function (Blueprint $table) {
+            $table->id();
+            $table->string('title');
+            $table->text('description');
             $table->timestamps();
         });
     }
@@ -29,6 +28,6 @@ class CreateCategoriesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('categories');
+        Schema::dropIfExists('blogs');
     }
 }
