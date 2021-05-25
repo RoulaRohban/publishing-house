@@ -1,74 +1,61 @@
-<!-- section footer start -->
-<div class="section_footer">
+<footer class="site-footer">
     <div class="container">
-        <div class="mail_section">
-            <div class="row">
-                <div class="col-sm-6 col-lg-2">
-                    <div><a href="#"><img src="images/footer-logo.png"></a></div>
-                </div>
-                <div class="col-sm-6 col-lg-2">
-                    <div class="footer-logo"><img src="images/phone-icon.png"><span class="map_text">(71) 1234567890</span></div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="footer-logo"><img src="images/email-icon.png"><span class="map_text">Demo@gmail.com</span></div>
-                </div>
-                <div class="col-sm-6 col-lg-3">
-                    <div class="social_icon">
-                        <ul>
-                            <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                            <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                            <li><a href="#"><img src="images/in-icon.png"></a></li>
-                            <li><a href="#"><img src="images/google-icon.png"></a></li>
-                        </ul>
+        <div class="row justify-content-between  section-padding">
+            <div class=" col-xl-3 col-lg-4 col-sm-6">
+                <div class="single-footer pb--40">
+                    <div class="brand-footer footer-title">
+                        <img src="{{ asset('image/logo--footer.png') }}" alt="">
+                    </div>
+                    <div class="footer-contact">
+                        <p><span class="label">Address:</span><span class="text">Example Street 98, HH2 BacHa, New
+                                    York,
+                                    USA</span></p>
+                        <p><span class="label">Phone:</span><span class="text">+18088 234 5678</span></p>
+                        <p><span class="label">Email:</span><span class="text">suport@hastech.com</span></p>
                     </div>
                 </div>
-                <div class="col-sm-2"></div>
             </div>
-        </div>
-        <div class="footer_section_2">
-            <div class="row">
-                <div class="col-sm-4 col-lg-2">
-                    <p class="dummy_text"> ipsum dolor sit amet, consectetur ipsum dolor sit amet, consectetur  ipsum dolor sit amet,</p>
-                </div>
-                <div class="col-sm-4 col-lg-2">
-                    <h2 class="shop_text">Address </h2>
-                    <div class="image-icon"><img src="images/map-icon.png"><span class="pet_text">No 40 Baria Sreet 15/2 NewYork City, NY, United States.</span></div>
-                </div>
-                <div class="col-sm-4 col-md-6 col-lg-3">
-                    <h2 class="shop_text">Our Company </h2>
-                    <div class="delivery_text">
-                        <ul>
-                            <li>Delivery</li>
-                            <li>Legal Notice</li>
-                            <li>About us</li>
-                            <li>Secure payment</li>
-                            <li>Contact us</li>
-                        </ul>
+            <div class=" col-xl-3 col-lg-2 col-sm-6">
+                <div class="single-footer pb--40">
+                    <div class="footer-title">
+                        <h3>Information</h3>
                     </div>
+                    <ul class="footer-list normal-list">
+                        <li><a href="#">New products</a></li>
+                        <li><a href="#">Best sales</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
                 </div>
-                <div class="col-sm-6 col-lg-3">
-                    <h2 class="adderess_text">Products</h2>
-                    <div class="delivery_text">
-                        <ul>
-                            <li>Prices drop</li>
-                            <li>New products</li>
-                            <li>Best sales</li>
-                            <li>Contact us</li>
-                            <li>Sitemap</li>
-                        </ul>
-                    </div>
+            </div>
+            <div class=" col-xl-3 col-lg-4 col-sm-6">
+                <div class="footer-title">
+                    <h3>Newsletter Subscribe</h3>
                 </div>
-                <div class="col-sm-6 col-lg-2">
-                    <h2 class="adderess_text">Newsletter</h2>
-                    <div class="form-group">
-                        <input type="text" class="enter_email" placeholder="Enter Your email" name="Name">
-                    </div>
-                    <button class="subscribr_bt">Subscribe</button>
+                <div class="newsletter-form mb--30">
+                    <form action="https://demo.hasthemes.com/pustok-preview/pustok/php/mail.php">
+                        <input type="email" class="form-control" placeholder="Enter Your Email Address Here...">
+                        <button class="btn btn--primary w-100">Subscribe</button>
+                    </form>
+                </div>
+                <div class="social-block">
+                    <h3 class="title">STAY CONNECTED</h3>
+                    <ul class="social-list list-inline">
+                        <li class="single-social facebook"><a href="#"><i class="ion ion-social-facebook"></i></a>
+                        </li>
+                        <li class="single-social twitter"><a href="#"><i class="ion ion-social-twitter"></i></a></li>
+                        <li class="single-social google"><a href="#"><i
+                                    class="ion ion-social-googleplus-outline"></i></a></li>
+                        <li class="single-social youtube"><a href="#"><i class="ion ion-social-youtube"></i></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</div>
-</div>
-<!-- section footer end -->
-<div class="copyright">2019 All Rights Reserved. <a href="https://html.design">Free html  Templates</a></div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p class="copyright-heading">Copyright © 2021 <a href="#" class="author"></a>. All Right Reserved.
+                <br></p>
+        </div>
+    </div>
+</footer>

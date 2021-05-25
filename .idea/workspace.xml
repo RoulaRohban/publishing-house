@@ -2,14 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263dd319-09a0-4cdd-aa2c-995ce5e349ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Order.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/OrderDetails.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_24_230221_create_orders_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_24_230536_create_order_details_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/publishing-house.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/publishing-house.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/about-img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/email-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/fb-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/footer-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/google-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/in-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/map-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/phone-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/running-shoes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/search_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shoes-img1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shoes-img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shoes-img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shoes-img4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shoes-img5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shoes-img6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shoes-img7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shoes-img8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shoes-img9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shop-banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/shop_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/star-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/twitter-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/header.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/collection.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/racing_boots.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/shoes.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +48,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -173,24 +202,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\publishing-house\resources\views\pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\publishing-house\public" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\publishing-house\resources\views\pages" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -253,6 +270,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
