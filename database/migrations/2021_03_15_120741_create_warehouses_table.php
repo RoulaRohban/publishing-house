@@ -18,6 +18,12 @@ class CreateWarehousesTable extends Migration
             $table->string('name');
             $table->text('address');
             $table->string('phone');
+            $table->string('email');
+            $table->string('google')->nullable();
+            $table->string('youtube')->nullable();
+            $table->string('twitter')->nullable();
+            $table->string('facebook')->nullable();
+            $table->text('sitemap')->nullable();
             $table->timestamps();
         });
     }

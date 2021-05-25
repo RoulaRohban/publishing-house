@@ -26,6 +26,7 @@ class CreateProductsTable extends Migration
             $table->integer('quantity');
             $table->integer('author_id');
             $table->integer('category_id');
+            $table->string('image_url');
             $table->timestamps();
         });
     }
