@@ -23,6 +23,7 @@ Route::group(['prefix' => 'admin'], function () {
 });
 
 Route::get('blogs','BlogController@index')->name('blogs.index');
+Route::get('blogs/{id}','BlogController@show')->name('blogs.show');
 Route::get('contactus','ContactUsController@index')->name('contactus');
 Route::get('products','ProductController@index')->name('products');
 Route::get('wishlist','WishlistController@index')->name('wishlist');
