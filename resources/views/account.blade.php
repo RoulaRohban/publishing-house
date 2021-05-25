@@ -6,7 +6,7 @@
             <div class="breadcrumb-contents">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
                         <li class="breadcrumb-item active">My Account</li>
                     </ol>
                 </nav>
@@ -25,10 +25,6 @@
                                         class="fas fa-tachometer-alt"></i>
                                     Dashboard</a>
                                 <a href="#orders" data-toggle="tab"><i class="fa fa-cart-arrow-down"></i> Orders</a>
-                                <a href="#download" data-toggle="tab"><i class="fas fa-download"></i> Download</a>
-                                <a href="#payment-method" data-toggle="tab"><i class="fa fa-credit-card"></i>
-                                    Payment
-                                    Method</a>
                                 <a href="#address-edit" data-toggle="tab"><i class="fa fa-map-marker"></i>
                                     address</a>
                                 <a href="#account-info" data-toggle="tab"><i class="fa fa-user"></i> Account
@@ -104,50 +100,9 @@
                                 </div>
                                 <!-- Single Tab Content End -->
                                 <!-- Single Tab Content Start -->
-                                <div class="tab-pane fade" id="download" role="tabpanel">
-                                    <div class="myaccount-content">
-                                        <h3>Downloads</h3>
-                                        <div class="myaccount-table table-responsive text-center">
-                                            <table class="table table-bordered">
-                                                <thead class="thead-light">
-                                                <tr>
-                                                    <th>Product</th>
-                                                    <th>Date</th>
-                                                    <th>Expire</th>
-                                                    <th>Download</th>
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <td>Mostarizing Oil</td>
-                                                    <td>Aug 22, 2018</td>
-                                                    <td>Yes</td>
-                                                    <td><a href="#" class="btn">Download File</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Katopeno Altuni</td>
-                                                    <td>Sep 12, 2018</td>
-                                                    <td>Never</td>
-                                                    <td><a href="#" class="btn">Download File</a></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Tab Content End -->
-                                <!-- Single Tab Content Start -->
-                                <div class="tab-pane fade" id="payment-method" role="tabpanel">
-                                    <div class="myaccount-content">
-                                        <h3>Payment Method</h3>
-                                        <p class="saved-message">You Can't Saved Your Payment Method yet.</p>
-                                    </div>
-                                </div>
-                                <!-- Single Tab Content End -->
-                                <!-- Single Tab Content Start -->
                                 <div class="tab-pane fade" id="address-edit" role="tabpanel">
                                     <div class="myaccount-content">
-                                        <h3>Billing Address</h3>
+                                        <h3>Address</h3>
                                         <address>
                                             <p><strong>Alex Tuntuni</strong></p>
                                             <p>1355 Market St, Suite 900 <br>

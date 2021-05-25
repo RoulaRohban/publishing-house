@@ -2,43 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263dd319-09a0-4cdd-aa2c-995ce5e349ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/publishing-house.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/publishing-house.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/about-img2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/email-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/fb-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/footer-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/google-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/in-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/map-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/phone-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/running-shoes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/search_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shoes-img1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shoes-img2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shoes-img3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shoes-img4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shoes-img5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shoes-img6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shoes-img7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shoes-img8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shoes-img9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shop-banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/shop_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/star-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/twitter-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/header.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/collection.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/contact.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/index.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/racing_boots.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/shoes.blade.php" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactUsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/FaqController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/WishlistController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/account.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/account.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contactus.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contactus.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/faq.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/faq.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/details.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/wishlist.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/wishlist.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621897082818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="website theme">
+      <created>1621924416414</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621924416414</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +261,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="edit migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit migration" />
+    <MESSAGE value="website theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="website theme" />
   </component>
 </project>

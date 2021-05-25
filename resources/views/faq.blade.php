@@ -6,8 +6,8 @@
             <div class="breadcrumb-contents">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active">Order Complete</li>
+                        <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                        <li class="breadcrumb-item active">FAQ</li>
                     </ol>
                 </nav>
             </div>
@@ -29,7 +29,6 @@
                 <div class="col-lg-6 col-12">
                     <!--FAQ (Accordion) Start-->
                     <div class="accordion" id="gq-faqs-1">
-
                         <!--Cart Start-->
                         <div class="card">
                             <div class="card-header">
@@ -41,86 +40,12 @@
                                 </div>
                             </div>
                         </div><!--Cart End-->
-
-                        <!--Cart Start-->
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-2">Vivamus feugiat, eros pretium porta ?</button></h5>
-                            </div>
-                            <div id="gq-faq-2" class="collapse" data-parent="#gq-faqs-1">
-                                <div class="card-body">
-                                    <p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
-                                </div>
-                            </div>
-                        </div><!--Cart End-->
-
-                        <!--Cart Start-->
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-3">Donec molestie vitae turpis a efficitur ?</button></h5>
-                            </div>
-                            <div id="gq-faq-3" class="collapse" data-parent="#gq-faqs-1">
-                                <div class="card-body">
-                                    <p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
-                                </div>
-                            </div>
-                        </div><!--Cart End-->
-
-                        <!--Cart Start-->
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-4">Nullam dignissim lectus diam, vitae elementum ?</button></h5>
-                            </div>
-                            <div id="gq-faq-4" class="collapse" data-parent="#gq-faqs-1">
-                                <div class="card-body">
-                                    <p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
-                                </div>
-                            </div>
-                        </div><!--Cart End-->
-
                     </div><!--FAQ (Accordion) End-->
                 </div>
 
                 <div class="col-lg-6 col-12 accordion-2">
                     <!--FAQ (Accordion) Start-->
                     <div class="accordion" id="gq-faqs-2">
-
-                        <!--Cart Start-->
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-5">Lorem ipsum dolor sit amet, consectetur adipisc ?</button></h5>
-                            </div>
-                            <div id="gq-faq-5" class="collapse show" data-parent="#gq-faqs-2">
-                                <div class="card-body">
-                                    <p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
-                                </div>
-                            </div>
-                        </div><!--Cart End-->
-
-                        <!--Cart Start-->
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-6">Vivamus feugiat, eros pretium porta ?</button></h5>
-                            </div>
-                            <div id="gq-faq-6" class="collapse" data-parent="#gq-faqs-2">
-                                <div class="card-body">
-                                    <p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
-                                </div>
-                            </div>
-                        </div><!--Cart End-->
-
-                        <!--Cart Start-->
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-7">Donec molestie vitae turpis a efficitur ?</button></h5>
-                            </div>
-                            <div id="gq-faq-7" class="collapse" data-parent="#gq-faqs-2">
-                                <div class="card-body">
-                                    <p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
-                                </div>
-                            </div>
-                        </div><!--Cart End-->
-
                         <!--Cart Start-->
                         <div class="card">
                             <div class="card-header">
@@ -132,7 +57,6 @@
                                 </div>
                             </div>
                         </div><!--Cart End-->
-
                     </div><!--FAQ (Accordion) End-->
                 </div>
 
