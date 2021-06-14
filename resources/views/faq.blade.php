@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <section class="breadcrumb-section">
-        <h2 class="sr-only">Site Breadcrumb</h2>
+        <h2 class="sr-only">Site FAQ</h2>
         <div class="container">
             <div class="breadcrumb-contents">
                 <nav aria-label="breadcrumb">
@@ -25,41 +25,26 @@
                 </div>
             </div>
             <div class="row mbn-30">
-
-                <div class="col-lg-6 col-12">
-                    <!--FAQ (Accordion) Start-->
-                    <div class="accordion" id="gq-faqs-1">
-                        <!--Cart Start-->
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-1">Lorem ipsum dolor sit amet, consectetur adipisc ?</button></h5>
-                            </div>
-                            <div id="gq-faq-1" class="collapse show" data-parent="#gq-faqs-1">
-                                <div class="card-body">
-                                    <p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
-                                </div>
-                            </div>
-                        </div><!--Cart End-->
-                    </div><!--FAQ (Accordion) End-->
-                </div>
-
+                @foreach($faqs as $faq)
                 <div class="col-lg-6 col-12 accordion-2">
                     <!--FAQ (Accordion) Start-->
                     <div class="accordion" id="gq-faqs-2">
                         <!--Cart Start-->
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-8">Nullam dignissim lectus diam, vitae elementum ?</button></h5>
+                                <h5 class="mb-0"><button class="collapsed" data-toggle="collapse" data-target="#gq-faq-8">{{ $faq->question }}</button></h5>
                             </div>
                             <div id="gq-faq-8" class="collapse" data-parent="#gq-faqs-2">
                                 <div class="card-body">
-                                    <p>Proin libero tellus, interdum ac pellentesque ac, malesuada a velit. Nullam fermentum massa nec sem condimentum, fermentum commodo felis accumsan.</p>
+                                    <p>{{ $faq->answer }}</p>
                                 </div>
                             </div>
                         </div><!--Cart End-->
                     </div><!--FAQ (Accordion) End-->
+                    <br>
                 </div>
 
+                @endforeach
             </div>
         </div>
     </div>

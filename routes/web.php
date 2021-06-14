@@ -26,6 +26,7 @@ Route::get('blogs','BlogController@index')->name('blogs.index');
 Route::get('blogs/{id}','BlogController@show')->name('blogs.show');
 Route::get('contactus','ContactUsController@index')->name('contactus');
 Route::get('products','ProductController@index')->name('products');
+Route::get('products/{id}','ProductController@show')->name('products.show');
 Route::get('wishlist','WishlistController@index')->name('wishlist');
 Route::get('faq','FaqController@index')->name('faq');
 Route::get('account','AccountController@index')->name('account');
