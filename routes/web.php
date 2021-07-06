@@ -30,3 +30,4 @@ Route::get('products/{id}','ProductController@show')->name('products.show');
 Route::get('wishlist','WishlistController@index')->name('wishlist');
 Route::get('faq','FaqController@index')->name('faq');
 Route::get('account','AccountController@index')->name('account');
+Route::post('contact-us','ContactUsController@store')->name('contact-us.store');

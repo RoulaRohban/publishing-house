@@ -20,32 +20,32 @@
                 <div class="col-lg-6">
                     <div class="contact_form">
                         <h3 class="ct_title">Send Us a Message</h3>
-                        <form id="contact-form" action="https://demo.hasthemes.com/pustok-preview/pustok/php/mail.php" method="post" class="contact-form">
+                        <form id="contact-form" class="contact-form">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <label>Your Name <span class="required">*</span></label>
-                                        <input type="text" id="con_name" name="con_name" class="form-control"
+                                        <input type="text" id="name" name="name" class="form-control"
                                                required>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <label>Your Email <span class="required">*</span></label>
-                                        <input type="email" id="con_email" name="con_email" class="form-control"
+                                        <input type="email" id="email" name="email" class="form-control"
                                                required>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <label>Your Message</label>
-                                        <textarea id="con_message" name="con_message"
+                                        <textarea id="message" name="message"
                                                   class="form-control"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="form-btn">
-                                        <button type="submit" value="submit" id="submit" class="btn btn-black w-100"
+                                        <button type="submit" value="submit" id="submit" class="btn btn-black w-100 save-data"
                                                 name="submit">send</button>
                                     </div>
                                     <div class="form__output"></div>
@@ -123,3 +123,41 @@
         </div>
     </div>
 @endsection
+
+@section('scripts')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+    <script>
+        $(".save-data").click(function(event) {
+            event.preventDefault();
+
+            let name = $('#name').val();
+            let email = $('#email').val();
+            let message = $('#message').val();
+            $.ajax({
+                url: "{{ route('contact-us.store') }}",
+                type: "POST",
+                data: {
+                    name: name,
+                    email: email,
+                    message: message,
+                    _token: '{!! csrf_token() !!}'
+                },
+                success: function(response) {
+                    console.log(response);
+                    swal({
+                            title: 'Done',
+                            text: response.message,
+                            type: "success",
+                            confirmButtonColor  : "#2d6aff",
+                            confirmButtonText   : "Ok",
+                            allowOutsideClick: false,
+                        },
+                    )
+                        .then(function(){
+                            location.reload();
+                        });
+                }
+            })
+        });
+    </script>
+    @endsection
