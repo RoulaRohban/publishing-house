@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Contact;
 use App\Http\Requests\Contact\StoreContactRequest;
+use App\Warehouse;
 use Illuminate\Http\Request;
 
 class ContactUsController extends Controller

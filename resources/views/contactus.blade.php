@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div id="google-map"></div>
+                    <div id="google-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106456.34689028889!2d36.212854632340665!3d33.50759893370287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e6dc413cc6a7%3A0x6b9f66ebd1e394f2!2sDamascus%2C%20Syria!5e0!3m2!1sen!2snl!4v1625613704773!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
                         <span class="icon"><i class="fa fa-phone"></i></span>
                         <div class="content">
                             <h3 class="title">Contact By Phone</h3>
-                            <p>1800.123.4569<br> 1800.123.7777</p>
+                            <p>{{ $warehouse->phone }}</p>
                         </div>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                         <span class="icon"><i class="fa fa-envelope"></i></span>
                         <div class="content">
                             <h3 class="title">Contact By Email</h3>
-                            <p>contact@yoursite.com <br> info@lawyersattorneys.com</p>
+                            <p>{{ $warehouse->email }}</p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                         <span class="icon"><i class="fa fa-map-marker"></i></span>
                         <div class="content">
                             <h3 class="title">Come To See Us</h3>
-                            <p>7/135 Saint St. London <br> 1130/5 Louis III St. New York</p>
+                            <p>{{ $warehouse->address }}</p>
                         </div>
                     </div>
                 </div>
@@ -108,12 +108,12 @@
                     <div class="contact-info">
                         <span class="icon"><i class="fa fa-users"></i></span>
                         <div class="content">
-                            <h3 class="title">Pustok Social</h3>
+                            <h3 class="title">{{ $warehouse->name }} Social</h3>
                             <ul class="social-list list-inline">
-                                <li class="single-social facebook"><a href="#"><i class="ion ion-social-facebook"></i></a></li>
-                                <li class="single-social twitter"><a href="#"><i class="ion ion-social-twitter"></i></a></li>
-                                <li class="single-social google"><a href="#"><i class="ion ion-social-googleplus-outline"></i></a></li>
-                                <li class="single-social youtube"><a href="#"><i class="ion ion-social-youtube"></i></a></li>
+                                <li class="single-social facebook"><a href="{{ $warehouse->facebook }}"><i class="ion ion-social-facebook"></i></a></li>
+                                <li class="single-social twitter"><a href="{{ $warehouse->twitter }}"><i class="ion ion-social-twitter"></i></a></li>
+                                <li class="single-social google"><a href="{{ $warehouse->google }}"><i class="ion ion-social-googleplus-outline"></i></a></li>
+                                <li class="single-social youtube"><a href="{{ $warehouse->youtube }}"><i class="ion ion-social-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>

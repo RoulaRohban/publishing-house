@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263dd319-09a0-4cdd-aa2c-995ce5e349ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Contact/StoreContactRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactUsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactUsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/contactus.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contactus.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +178,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DamaHotel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mafcode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -233,7 +233,7 @@
       <workItem from="1622408373152" duration="35000" />
       <workItem from="1623624100024" duration="7697000" />
       <workItem from="1625345307991" duration="10284000" />
-      <workItem from="1625609020552" duration="3034000" />
+      <workItem from="1625609020552" duration="6682000" />
     </task>
     <task id="LOCAL-00001" summary="edit migration">
       <created>1621897082818</created>
@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623711571314</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Contact us ajax form">
+      <created>1625613201504</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625613201504</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +294,7 @@
     <MESSAGE value="website theme" />
     <MESSAGE value="blogs &amp; blog detail" />
     <MESSAGE value="faq &amp; products" />
-    <option name="LAST_COMMIT_MESSAGE" value="faq &amp; products" />
+    <MESSAGE value="Contact us ajax form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact us ajax form" />
   </component>
 </project>
