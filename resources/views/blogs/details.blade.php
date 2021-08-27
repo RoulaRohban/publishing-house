@@ -17,7 +17,7 @@
         <div class="container">
             <div class="blog-post post-details mb--50">
                 <div class="blog-image">
-                    <img src="image/others/blog-img-big-1.jpg" alt="">
+                    <img src="{{ asset($blog->image_url) }}" alt="">
                 </div>
                 <div class="blog-content mt--30">
                     <header>

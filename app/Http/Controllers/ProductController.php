@@ -15,6 +15,7 @@ class ProductController extends Controller
     }
     public function show($id){
         $product = Product::findOrFail($id);
-        return view('products.details',compact('product'));
+        $products = Product::where('category_id', $product->category_id)->get();
+        return view('products.details',compact('product' ,'products'));
     }
 }

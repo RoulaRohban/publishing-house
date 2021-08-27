@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-})->name('home');
+//Route::get('/', function () {
+//    return view('index');
+//})->name('home');
 
 
 Route::group(['prefix' => 'admin'], function () {
@@ -25,7 +25,7 @@ Route::group(['prefix' => 'admin'], function () {
 Route::get('blogs','BlogController@index')->name('blogs.index');
 Route::get('blogs/{id}','BlogController@show')->name('blogs.show');
 Route::get('contactus','ContactUsController@index')->name('contactus');
-Route::get('products','ProductController@index')->name('products');
+Route::get('all-products','ProductController@index')->name('products');
 Route::get('products/{id}','ProductController@show')->name('products.show');
 Route::get('wishlist','WishlistController@index')->name('wishlist');
 Route::get('faq','FaqController@index')->name('faq');
@@ -35,4 +35,4 @@ Route::put('account/address/edit','AccountController@editAddress')->name('addres
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', 'HomeController@index')->name('home');

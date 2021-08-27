@@ -2,15 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263dd319-09a0-4cdd-aa2c-995ce5e349ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/ourFiles/LOGO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ourFiles/books-school-desk-class_23-2148204795.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blogs/August2021/DKVRBijYKys2qTii693u.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blogs/August2021/XLy6fauVWWhjPWy5Bb4K.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/blogs/August2021/pNYCpD04OWqW0sk3fTJf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/wiliam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/2lwU3OmjV8uD8u6GXKTZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/4Aw1duLDLxWjBY2rH5fw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/FlRtq2S0xtALAjO71NSe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/M1p6FTLU7PQJktuDb8i8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/MCM9zhbIaRzuf81zeYfv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/OT6uLU7Yn5gxonXwSzNa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/OkOAeMTIO7KP6PThwzSo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/VQOQHAp8XiO60vQik952.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/XDEswCyRulATows9LyXM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/YvAPK1gIyAhLTfj7cTdE.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/jAxn8Jt9U2hwVMp3jPLM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/kFMhRD7zhlrl9b7miLPd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/lF2EQ4NCy4Wo6wR4W22F.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/mRMRAphjGE6Tb2zcYpDB.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/rToLFYVBlwpgIl7psDKy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/products/August2021/vCQGmIihKc6tl1ASD9iM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/users/August2021/wsmG9fb5o8tgoZ4g0fBY.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/OrderDetails.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/OrderDetails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/account.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/account.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/voyager.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/voyager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blogs/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blogs/details.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/products/details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/details.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -247,7 +267,7 @@
       <workItem from="1626959062562" duration="13243000" />
       <workItem from="1628879647830" duration="2516000" />
       <workItem from="1628957902328" duration="1235000" />
-      <workItem from="1629921959498" duration="3739000" />
+      <workItem from="1629921959498" duration="16865000" />
     </task>
     <task id="LOCAL-00001" summary="edit migration">
       <created>1621897082818</created>
@@ -298,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625695458043</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="user dashboard and some edits">
+      <created>1630067482138</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1630067482138</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,6 +352,7 @@
     <MESSAGE value="Contact us ajax form" />
     <MESSAGE value="finished footer and contactus page" />
     <MESSAGE value="login, register &amp; logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="login, register &amp; logout" />
+    <MESSAGE value="user dashboard and some edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="user dashboard and some edits" />
   </component>
 </project>

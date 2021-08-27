@@ -23,14 +23,14 @@
                             <div class="product-card card-style-list">
                                 <div class="product-list-content">
                                     <div class="card-image">
-                                        <img src="image/products/product-3.jpg" alt="">
+                                        <img src="{{ $product->image_url }}" alt="">
                                     </div>
                                     <div class="product-card--body">
                                         <div class="product-header">
                                             <a href="#" class="author">
 {{--                                                {{ $product->author->name }}--}}
                                             </a>
-                                            <h3><a href="product-details.html" tabindex="0">
+                                            <h3><a href="{{ route('products.show',$product->id) }}" tabindex="0">
                                                     {{ $product->title }}
                                                 </a></h3>
                                         </div>
