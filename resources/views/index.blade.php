@@ -1,8 +1,5 @@
 @extends('layouts.app')
 @section('content')
-    <!--=================================
-        Hero Area
-        ===================================== -->
     <section class="hero-area hero-slider-1">
         <div class="sb-slick-slider" data-slick-setting='{
                             "autoplay": true,
@@ -16,7 +13,7 @@
                 <div class="container">
                     <div class="home-content text-center text-sm-left position-relative">
                         <div class="hero-partial-image image-right">
-                            <img src="image/bg-images/home-slider-2-ai.png" alt="">
+                            <img src="ourFiles/books-school-desk-class_23-2148204795.jpg" alt="">
                         </div>
                         <div class="row no-gutters ">
                             <div class="col-xl-6 col-md-6 col-sm-7">
@@ -120,9 +117,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -160,9 +154,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -202,9 +193,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -242,9 +230,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -284,9 +269,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -324,9 +306,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -366,9 +345,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -406,9 +382,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -448,9 +421,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -488,9 +458,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -530,9 +497,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -570,9 +534,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -628,9 +589,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -668,9 +626,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -710,9 +665,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -750,9 +702,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -792,9 +741,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -832,9 +778,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -874,9 +817,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -914,9 +854,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -956,9 +893,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -996,9 +930,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -1038,9 +969,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -1078,9 +1006,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -1136,9 +1061,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -1176,9 +1098,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -1218,9 +1137,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -1258,9 +1174,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -1300,9 +1213,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -1340,9 +1250,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -1382,9 +1289,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -1422,9 +1326,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -1464,9 +1365,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -1504,9 +1402,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -1546,9 +1441,6 @@
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
                                                     </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
-                                                    </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
                                                         <i class="fas fa-eye"></i>
@@ -1587,9 +1479,6 @@
                                                     </a>
                                                     <a href="wishlist.html" class="single-btn">
                                                         <i class="fas fa-heart"></i>
-                                                    </a>
-                                                    <a href="compare.html" class="single-btn">
-                                                        <i class="fas fa-random"></i>
                                                     </a>
                                                     <a href="#" data-toggle="modal" data-target="#quickModal"
                                                        class="single-btn">
@@ -1656,9 +1545,6 @@
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
                                         </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
-                                        </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
                                             <i class="fas fa-eye"></i>
@@ -1699,9 +1585,6 @@
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
                                         </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
-                                        </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
                                             <i class="fas fa-eye"></i>
@@ -1741,9 +1624,6 @@
                                         </a>
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
-                                        </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
                                         </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
@@ -1786,9 +1666,6 @@
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
                                         </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
-                                        </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
                                             <i class="fas fa-eye"></i>
@@ -1828,9 +1705,6 @@
                                         </a>
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
-                                        </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
                                         </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
@@ -1873,9 +1747,6 @@
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
                                         </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
-                                        </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
                                             <i class="fas fa-eye"></i>
@@ -1916,9 +1787,6 @@
                                         </a>
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
-                                        </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
                                         </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
@@ -2348,9 +2216,6 @@
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
                                         </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
-                                        </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
                                             <i class="fas fa-eye"></i>
@@ -2389,9 +2254,6 @@
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
                                         </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
-                                        </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
                                             <i class="fas fa-eye"></i>
@@ -2428,9 +2290,6 @@
                                         </a>
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
-                                        </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
                                         </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
@@ -2470,9 +2329,6 @@
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
                                         </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
-                                        </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
                                             <i class="fas fa-eye"></i>
@@ -2510,9 +2366,6 @@
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
                                         </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
-                                        </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
                                             <i class="fas fa-eye"></i>
@@ -2549,9 +2402,6 @@
                                         </a>
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
-                                        </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
                                         </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
@@ -2591,9 +2441,6 @@
                                         </a>
                                         <a href="wishlist.html" class="single-btn">
                                             <i class="fas fa-heart"></i>
-                                        </a>
-                                        <a href="compare.html" class="single-btn">
-                                            <i class="fas fa-random"></i>
                                         </a>
                                         <a href="#" data-toggle="modal" data-target="#quickModal"
                                            class="single-btn">
@@ -2860,7 +2707,6 @@
                                 </div>
                                 <div class="compare-wishlist-row">
                                     <a href="#" class="add-link"><i class="fas fa-heart"></i>Add to Wish List</a>
-                                    <a href="#" class="add-link"><i class="fas fa-random"></i>Add to Compare</a>
                                 </div>
                             </div>
                         </div>

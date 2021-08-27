@@ -4,7 +4,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-3 ">
                     <a href="#" class="site-brand">
-                        <img src="{{ asset('image/logo.png') }}" alt="">
+                        <img src="{{ asset('ourFiles/LOGO.png') }}" alt="">
                     </a>
                 </div>
                 <div class="col-lg-2">

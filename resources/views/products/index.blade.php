@@ -28,7 +28,7 @@
                                     <div class="product-card--body">
                                         <div class="product-header">
                                             <a href="#" class="author">
-                                                {{ $product->author->name }}
+{{--                                                {{ $product->author->name }}--}}
                                             </a>
                                             <h3><a href="product-details.html" tabindex="0">
                                                     {{ $product->title }}

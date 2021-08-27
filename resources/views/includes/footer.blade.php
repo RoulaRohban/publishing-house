@@ -4,7 +4,7 @@
             <div class=" col-xl-6 col-lg-8 col-sm-12">
                 <div class="single-footer pb--40">
                     <div class="brand-footer footer-title">
-                        <img src="{{ asset('image/logo--footer.png') }}" alt="">
+                        <img src="{{ asset('ourFiles/LOGO.png') }}" alt="">
                     </div>
                     <div class="footer-contact">
                         <p><span class="label">Address:</span><span class="text">{{ $warehouse->address }}</span></p>
