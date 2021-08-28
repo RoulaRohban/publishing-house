@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Blog;
 use App\Category;
 use App\Product;
+use App\Wishlist;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -35,5 +36,28 @@ class HomeController extends Controller
         $categoryId2 = Category::where("name", "Religious")->pluck('id')->toArray();
         $religious_books = Product::whereIn('category_id', $categoryId2)->get();
         return view('index', compact('products','products_discount', 'products_sell', 'children_books', 'religious_books', 'blogs'));
+    }
+
+    public function toggleFavorite($id)
+    {
+        $favoriteExist=Wishlist::where([
+            'user_id' => auth()->id(),
+            'product_id' => $id
+        ])->count() ;
+        if($favoriteExist > 0)
+        {
+            Wishlist::where([
+                'user_id' => auth()->id(),
+                'product_id' => $id
+            ])->delete();
+            return response()->json(['message'=>'Successfully UnLiked !']);
+        }
+        else {
+            Wishlist::create([
+                'product_id' => $id,
+                'user_id' => auth()->id()
+            ]);
+            return response()->json(['message'=>'Successfully liked !']);
+        }
     }
 }

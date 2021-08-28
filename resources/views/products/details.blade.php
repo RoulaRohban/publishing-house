@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <div class="compare-wishlist-row">
-                            <a href="#" class="add-link"><i class="fas fa-heart"></i>Add to Wish List</a>
+                            <a onclick="toggleFavourite('{{ route('wishlist.store', $product->id) }}')" class="add-link"><i class="fas fa-heart"></i>Add to Wish List</a>
                         </div>
                     </div>
                 </div>
@@ -139,4 +139,20 @@ RELATED PRODUCTS BOOKS
             </div>
         </section>
     </main>
+@endsection
+@section('scripts')
+    <script type="text/javascript">
+        function toggleFavourite(url) {
+            $.ajax({
+                url: url,
+                type: "GET",
+                data: {
+                    _token: '{!! csrf_token() !!}'
+                }
+                // success: function(){
+                //     alert('its done')
+                // },
+            });
+        }
+    </script>
 @endsection

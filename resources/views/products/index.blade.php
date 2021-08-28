@@ -51,7 +51,7 @@
 {{--                                        </div>--}}
                                         <div class="btn-block">
                                             <a href="#" class="btn btn-outlined">reserve It !</a>
-                                            <a href="#" class="card-link"><i class="fas fa-heart"></i> Add To
+                                            <a onclick="toggleFavourite('{{ route('wishlist.store', $product->id) }}')" class="card-link"><i class="fas fa-heart"></i> Add To
                                                 Wishlist</a>
                                         </div>
                                     </div>
@@ -104,4 +104,20 @@
             </div>
         </div>
     </main>
+@endsection
+@section('scripts')
+    <script type="text/javascript">
+        function toggleFavourite(url) {
+            $.ajax({
+                url: url,
+                type: "GET",
+                data: {
+                    _token: '{!! csrf_token() !!}'
+                }
+                // success: function(){
+                //     alert('its done')
+                // },
+            });
+        }
+    </script>
 @endsection
