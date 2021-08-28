@@ -22,7 +22,7 @@ Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
 
-Route::get('blogs','BlogController@index')->name('blogs.index');
+Route::get('all-blogs','BlogController@index')->name('blogs.index');
 Route::get('blogs/{id}','BlogController@show')->name('blogs.show');
 Route::get('contactus','ContactUsController@index')->name('contactus');
 Route::get('all-products','ProductController@index')->name('products');
@@ -34,6 +34,7 @@ Route::post('contact-us','ContactUsController@store')->name('contact-us.store');
 Route::put('account/address/edit','AccountController@editAddress')->name('address.edit');
 Route::get('wishlist/product/{id}','HomeController@toggleFavorite')->name('wishlist.store');
 Route::get('order/product/{id}','HomeController@orderProduct')->name('order.store');
+Route::delete('wishlist/{id}','WishlistController@destroy')->name('wishlist.destroy');
 
 Auth::routes();
 
