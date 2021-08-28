@@ -20,7 +20,7 @@
                 <div class="col-lg-4 col-md-6 mb-lg--60 mb--30">
                     <div class="blog-card card-style-grid">
                         <a href="{{ route('blogs.show',$blog->id) }}" class="image d-block">
-                            <img src="image/others/blog-grid-1.jpg" alt="">
+                            <img src="{{ asset($blog->image_url) }}" alt="">
                         </a>
                         <div class="card-content">
                             <h3 class="title"><a href="{{ route('blogs.show',$blog->id) }}">{{ $blog->title }}</a></h3>

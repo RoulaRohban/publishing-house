@@ -88,6 +88,7 @@
                                                 </tbody>
                                             </table>
                                         </div>
+                                        {!! $details->links() !!}
                                     </div>
                                 </div>
                                 <!-- Single Tab Content End -->
@@ -96,12 +97,12 @@
                                     <div class="myaccount-content">
                                         <h3>Address</h3>
                                         <address>
-                                            <p><strong>{{ Auth::user()->name }}</strong></p>
-                                            <p>{{ Auth::user()->address }}</p>
-                                            <p>Mobile: {{ Auth::user()->phone }}</p>
+                                            <label>Address</label>
+                                            <input type="text" id="address" name="address" class="form-control" value="{{ Auth::user()->address }}">
+                                            <label>Mobile</label>
+                                            <input type="text" id="phone" name="phone" class="form-control" value="{{ Auth::user()->phone }}">
                                         </address>
-                                        <a href="#" class="btn btn--primary" data-toggle="modal" data-target="#edit_address_modal"><i class="fa fa-edit"></i>Edit
-                                            Address</a>
+                                        <a class="btn btn--primary save-data"><i class="fa fa-edit"></i>Edit Address</a>
                                     </div>
                                 </div>
                                 <!-- Single Tab Content End -->
@@ -113,17 +114,17 @@
                                             <form action="#">
                                                 <div class="row">
                                                     <div class="col-lg-6 col-12  mb--30">
-                                                        <input id="first-name" placeholder="First Name" type="text">
+                                                        <input id="first_name" placeholder="First Name" type="text" value="{{ Auth::user()->first_name }}">
                                                     </div>
                                                     <div class="col-lg-6 col-12  mb--30">
-                                                        <input id="last-name" placeholder="Last Name" type="text">
+                                                        <input id="last_name" placeholder="Last Name" type="text" value="{{ Auth::user()->last_name }}">
                                                     </div>
                                                     <div class="col-12  mb--30">
-                                                        <input id="display-name" placeholder="Display Name"
-                                                               type="text">
+                                                        <input id="name" placeholder="Display Name"
+                                                               type="text" value="{{ Auth::user()->name }}">
                                                     </div>
                                                     <div class="col-12  mb--30">
-                                                        <input id="email" placeholder="Email Address" type="email">
+                                                        <input id="email" placeholder="Email Address" type="email" value="{{ Auth::user()->email }}">
                                                     </div>
                                                     <div class="col-12  mb--30">
                                                         <h4>Password change</h4>
@@ -133,15 +134,15 @@
                                                                type="password">
                                                     </div>
                                                     <div class="col-lg-6 col-12  mb--30">
-                                                        <input id="new-pwd" placeholder="New Password"
+                                                        <input id="password" placeholder="New Password"
                                                                type="password">
                                                     </div>
                                                     <div class="col-lg-6 col-12  mb--30">
-                                                        <input id="confirm-pwd" placeholder="Confirm Password"
+                                                        <input id="password" placeholder="Confirm Password"
                                                                type="password">
                                                     </div>
                                                     <div class="col-12">
-                                                        <button class="btn btn--primary">Save Changes</button>
+                                                        <button class="btn btn--primary save-data2">Save Changes</button>
                                                     </div>
                                                 </div>
                                             </form>
@@ -157,53 +158,8 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="edit_address_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">edit Address & Phone Number</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&times;</span></button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group has-feedback {{ $errors->has('phone') ? 'has-error' : '' }}">
-                            <label>Phone Number</label>
-                            <input id="phone" type="text" class="form-control" name="phone"
-                                   value="{{  Auth::user()->phone }}">
-                            @if ($errors->has('phone'))
-                                <span class="help-block">
-                                    <strong>{{ $errors->first('phone') }}</strong>
-                                </span>
-                            @endif
-                        </div>
-                        <div class="form-group has-feedback {{ $errors->has('address') ? 'has-error' : '' }}">
-                            <label>Address</label>
-                            <textarea id="address" name="address" cols="20" rows="10" class="form-control">{{ Auth::user()->address }}</textarea>
-                            @if ($errors->has('address'))
-                                <span class="help-block">
-                                    <strong>{{ $errors->first('address') }}</strong>
-                                </span>
-                            @endif
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn--primary save-data"><i class="fa fa-edit"></i>Save changes
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
 @endsection
 @section('scripts')
-<script>
-    function SubmitForm(formId)
-    {
-        $('#'+formId).submit();
-    }
-</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
     <script>
         $(".save-data").click(function(event) {
@@ -217,8 +173,42 @@
                 data: {
                     phone: phone,
                     address: address,
-                    _token: '{!! csrf_token() !!}',
-                    _method: 'PUT'
+                    _token: '{!! csrf_token() !!}'
+                },
+                success: function(response) {
+                    console.log(response);
+                    swal({
+                            title: 'Done',
+                            text: response.message,
+                            type: "success",
+                            confirmButtonColor  : "#2d6aff",
+                            confirmButtonText   : "Ok",
+                            allowOutsideClick: false,
+                        },
+                    )
+                        .then(function(){
+                            location.reload();
+                        });
+                }
+            })
+        });
+        $(".save-data2").click(function(event) {
+            event.preventDefault();
+            let name = $('#name').val();
+            let first_name = $('#first_name').val();
+            let last_name = $('#last_name').val();
+            let email = $('#email').val();
+            let password = $('#password').val();
+            $.ajax({
+                url: "{{ route('account.edit') }}",
+                type: "POST",
+                data: {
+                    name: name,
+                    first_name: first_name,
+                    last_name: last_name,
+                    email: email,
+                    password: password,
+                    _token: '{!! csrf_token() !!}'
                 },
                 success: function(response) {
                     console.log(response);
@@ -238,4 +228,4 @@
             })
         });
     </script>
-    @endsection
+@endsection

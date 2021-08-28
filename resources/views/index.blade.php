@@ -390,7 +390,7 @@
                                 <h3><a href="{{ route('products.show',$product->id) }}">{{ $product->title }}</a></h3>
                             </div>
                             <div class="price-block">
-                                <span class="price">{{ $product->price }}</span>
+                                <span class="price">{{ $product->price }} S.P</span>
                             </div>
                         </div>
                     </div>
