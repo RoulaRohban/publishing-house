@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Blog;
 use App\Category;
+use App\Order;
 use App\Product;
 use App\Wishlist;
 use Illuminate\Http\Request;
@@ -59,5 +60,15 @@ class HomeController extends Controller
             ]);
             return response()->json(['message'=>'Successfully liked !']);
         }
+    }
+
+    public function orderProduct($id){
+        $product = Product::findOrFail($id);
+        Order::create([
+            'product_id' => $id,
+            'user_id' => auth()->id(),
+            'total_price' => $product->price
+        ]);
+        return response()->json(['message'=>'Successfully reserved !']);
     }
 }

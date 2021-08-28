@@ -79,9 +79,9 @@
                                                 <tr>
                                                     <td>{{ $key+1 }}</td>
                                                     <td>{{ $detail->product->title }}</td>
-                                                    <td>{{ $detail->created_at }}</td>
-                                                    <td>{{ $detail->order->status }}</td>
-                                                    <td>{{ $detail->product->price }} S.P</td>
+                                                    <td>{{ $detail->created_at ?? '---' }}</td>
+                                                    <td>{{ $detail->status }}</td>
+                                                    <td>{{ $detail->total_price }} S.P</td>
                                                     <td><a href="{{ route('products.show', $detail->product->id) }}" class="btn">View</a></td>
                                                 </tr>
                                                 @endforeach

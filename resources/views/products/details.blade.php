@@ -62,12 +62,12 @@
                             <p>{{ $product->author->abstract ?? '---' }}</p>
                         </article>
                         <div class="add-to-cart-row">
-                            <div class="count-input-block">
-                                <span class="widget-label">Qty</span>
-                                <input type="number" class="form-control text-center" value="1">
-                            </div>
+{{--                            <div class="count-input-block">--}}
+{{--                                <span class="widget-label">Qty</span>--}}
+{{--                                <input type="number" class="form-control text-center" value="1">--}}
+{{--                            </div>--}}
                             <div class="add-cart-btn">
-                                <a href="#" class="btn btn-outlined--primary"><span class="plus-icon">+</span>Reserve It!</a>
+                                <a onclick="orderProduct('{{ route('order.store', $product->id) }}')" class="btn btn-outlined--primary"><span class="plus-icon">+</span>Reserve It!</a>
                             </div>
                         </div>
                         <div class="compare-wishlist-row">
@@ -143,6 +143,18 @@ RELATED PRODUCTS BOOKS
 @section('scripts')
     <script type="text/javascript">
         function toggleFavourite(url) {
+            $.ajax({
+                url: url,
+                type: "GET",
+                data: {
+                    _token: '{!! csrf_token() !!}'
+                }
+                // success: function(){
+                //     alert('its done')
+                // },
+            });
+        }
+        function orderProduct(url) {
             $.ajax({
                 url: url,
                 type: "GET",

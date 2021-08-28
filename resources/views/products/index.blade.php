@@ -50,7 +50,7 @@
 {{--                                            <span class="fas fa-star "></span>--}}
 {{--                                        </div>--}}
                                         <div class="btn-block">
-                                            <a href="#" class="btn btn-outlined">reserve It !</a>
+                                            <a onclick="orderProduct('{{ route('order.store', $product->id) }}')"  class="btn btn-outlined">reserve It !</a>
                                             <a onclick="toggleFavourite('{{ route('wishlist.store', $product->id) }}')" class="card-link"><i class="fas fa-heart"></i> Add To
                                                 Wishlist</a>
                                         </div>
@@ -60,27 +60,7 @@
                         </div>
                         @endforeach
                     </div>
-                    <!-- Pagination Block -->
-                    <div class="row pt--30">
-                        <div class="col-md-12">
-                            <div class="pagination-block">
-                                <ul class="pagination-btns flex-center">
-                                    <li><a href="#" class="single-btn prev-btn ">|<i
-                                                class="zmdi zmdi-chevron-left"></i> </a></li>
-                                    <li><a href="#" class="single-btn prev-btn "><i
-                                                class="zmdi zmdi-chevron-left"></i> </a></li>
-                                    <li class="active"><a href="#" class="single-btn">1</a></li>
-                                    <li><a href="#" class="single-btn">2</a></li>
-                                    <li><a href="#" class="single-btn">3</a></li>
-                                    <li><a href="#" class="single-btn">4</a></li>
-                                    <li><a href="#" class="single-btn next-btn"><i
-                                                class="zmdi zmdi-chevron-right"></i></a></li>
-                                    <li><a href="#" class="single-btn next-btn"><i
-                                                class="zmdi zmdi-chevron-right"></i>|</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                    {!! $products->links() !!}
                 </div>
                 <div class="col-lg-3  mt--40 mt-lg--0">
                     <div class="inner-page-sidebar">
@@ -114,10 +94,20 @@
                 data: {
                     _token: '{!! csrf_token() !!}'
                 }
+            });
+        }
+        function orderProduct(url) {
+            $.ajax({
+                url: url,
+                type: "GET",
+                data: {
+                    _token: '{!! csrf_token() !!}'
+                }
                 // success: function(){
                 //     alert('its done')
                 // },
             });
         }
     </script>
+
 @endsection

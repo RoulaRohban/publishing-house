@@ -11,8 +11,8 @@ use Auth;
 class AccountController extends Controller
 {
     public function index(){
-        $myOrderIds = Order::where('user_id', Auth::user()->id)->pluck('id');
-        $details = OrderDetails::whereIn('order_id',$myOrderIds)->get();
+        $details = Order::where('user_id', Auth::user()->id)->get();
+//        dd($details);
         return view('account', compact('details'));
     }
 

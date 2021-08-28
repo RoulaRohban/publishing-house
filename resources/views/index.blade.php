@@ -109,7 +109,7 @@
                                                     <img src="{{ $product->image_url }}" alt="">
                                                 </a>
                                                 <div class="hover-btns">
-                                                    <a href="cart.html" class="single-btn">
+                                                    <a onclick="orderProduct('{{ route('order.store', $product->id) }}')" class="single-btn">
                                                         <i class="fas fa-shopping-basket"></i>
                                                     </a>
                                                     <a onclick="toggleFavourite('{{ route('wishlist.store', $product->id) }}')" class="single-btn">
@@ -160,7 +160,7 @@
                                                     <img src="{{ $product->image_url }}" alt="">
                                                 </a>
                                                 <div class="hover-btns">
-                                                    <a href="cart.html" class="single-btn">
+                                                    <a onclick="orderProduct('{{ route('order.store', $product->id) }}')" class="single-btn">
                                                         <i class="fas fa-shopping-basket"></i>
                                                     </a>
                                                     <a onclick="toggleFavourite('{{ route('wishlist.store', $product->id) }}')" class="single-btn">
@@ -211,7 +211,7 @@
                                                         <img src="{{ $product->image_url }}" alt="">
                                                     </a>
                                                     <div class="hover-btns">
-                                                        <a href="cart.html" class="single-btn">
+                                                        <a onclick="orderProduct('{{ route('order.store', $product->id) }}')" class="single-btn">
                                                             <i class="fas fa-shopping-basket"></i>
                                                         </a>
                                                         <a onclick="toggleFavourite('{{ route('wishlist.store', $product->id) }}')" class="single-btn">
@@ -272,7 +272,7 @@
                                             <img src="{{ $product->image_url }}" alt="">
                                         </a>
                                         <div class="hover-btns">
-                                            <a href="cart.html" class="single-btn">
+                                            <a onclick="orderProduct('{{ route('order.store', $product->id) }}')" class="single-btn">
                                                 <i class="fas fa-shopping-basket"></i>
                                             </a>
                                             <a onclick="toggleFavourite('{{ route('wishlist.store', $product->id) }}')" class="single-btn">
@@ -437,7 +437,7 @@
                                         <img src="{{ $product->image_url }}" alt="">
                                     </a>
                                     <div class="hover-btns">
-                                        <a href="#" class="single-btn">
+                                        <a onclick="orderProduct('{{ route('order.store', $product->id) }}')" class="single-btn">
                                             <i class="fas fa-shopping-basket"></i>
                                         </a>
                                         <a onclick="toggleFavourite('{{ route('wishlist.store', $product->id) }}')" class="single-btn">
@@ -541,6 +541,18 @@
                 //     alert('its done')
                 // },
             });
+       }
+       function orderProduct(url) {
+           $.ajax({
+               url: url,
+               type: "GET",
+               data: {
+                   _token: '{!! csrf_token() !!}'
+               }
+               // success: function(){
+               //     alert('its done')
+               // },
+           });
        }
     </script>
 @endsection

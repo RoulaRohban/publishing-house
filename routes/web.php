@@ -33,6 +33,7 @@ Route::get('account','AccountController@index')->name('account');
 Route::post('contact-us','ContactUsController@store')->name('contact-us.store');
 Route::put('account/address/edit','AccountController@editAddress')->name('address.edit');
 Route::get('wishlist/product/{id}','HomeController@toggleFavorite')->name('wishlist.store');
+Route::get('order/product/{id}','HomeController@orderProduct')->name('order.store');
 
 Auth::routes();
 
