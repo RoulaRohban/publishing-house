@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="263dd319-09a0-4cdd-aa2c-995ce5e349ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/publishing-house (1).sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AccountController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/account.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/account.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blogs/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blogs/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +174,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mafcode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projectr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -244,7 +239,7 @@
       <workItem from="1628879647830" duration="2516000" />
       <workItem from="1628957902328" duration="1235000" />
       <workItem from="1629921959498" duration="17838000" />
-      <workItem from="1630095099916" duration="18188000" />
+      <workItem from="1630095099916" duration="19205000" />
     </task>
     <task id="LOCAL-00001" summary="edit migration">
       <created>1621897082818</created>
@@ -330,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630175083946</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update account details with ajax">
+      <created>1630183049865</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1630183049865</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +364,7 @@
     <MESSAGE value="toggle favourite product" />
     <MESSAGE value="reserved &amp; paginate product" />
     <MESSAGE value="wishlist page" />
-    <option name="LAST_COMMIT_MESSAGE" value="wishlist page" />
+    <MESSAGE value="update account details with ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="update account details with ajax" />
   </component>
 </project>
